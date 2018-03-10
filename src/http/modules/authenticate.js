@@ -5,6 +5,7 @@ const spotifyApi = new Spotify({
   clientSecret: process.env.SPOTIFY_AUTH_SECRET
 })
 
+/* eslint-disable camelcase */
 module.exports = function authenticate (server) {
   server.get('api/v1/authenticate', async (req, res, next) => {
     try {
@@ -16,3 +17,4 @@ module.exports = function authenticate (server) {
     next()
   })
 }
+/* eslint-disable camelcase */

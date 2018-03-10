@@ -1,0 +1,27 @@
+{
+  "name": "spotifood-server",
+  "version": "1.0.0",
+  "description": "Restify server to provide RESTful APIs to Spotifood example application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "restify",
+    "spotify"
+  ],
+  "author": "Bruno Ferreira <bferreira.assis@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "eslint": "^4.18.2",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "restify": "^6.3.4",
+    "restify-cors-middleware": "^1.1.0"
+  }
+}
