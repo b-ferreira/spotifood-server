@@ -4,7 +4,7 @@
   "description": "Restify server to provide RESTful APIs to Spotifood example application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "node_env=DEVELOPMENT nodemon src/index.js"
   },
   "keywords": [
     "nodejs",
@@ -22,6 +22,7 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "restify": "^6.3.4",
-    "restify-cors-middleware": "^1.1.0"
+    "restify-cors-middleware": "^1.1.0",
+    "spotify-web-api-node": "^3.0.0"
   }
 }

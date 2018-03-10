@@ -1,8 +1,8 @@
 
-const authenticate = require('./modules/authenticate')
+const spotify = require('./modules/spotify')
 
 const routes = server => {
-  authenticate(server)
+  spotify(server)
 }
 
 module.exports = routes

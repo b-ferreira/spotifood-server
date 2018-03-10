@@ -6,6 +6,7 @@ const routes = require('../http/routes')
 
 server.pre(cors.preflight)
 server.use(cors.actual)
+server.use(restify.plugins.queryParser())
 
 routes(server)
 
