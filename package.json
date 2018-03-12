@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Restify server to provide RESTful APIs to Spotifood example application",
   "main": "index.js",
+  "repository": "https://github.com/b-ferreira/spotifood-server.git",
   "scripts": {
     "start:dev": "node_env=DEVELOPMENT nodemon src/index.js"
   },
