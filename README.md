@@ -15,3 +15,9 @@ The application uses some configuration provided from your **enviroment**. In or
 - **SPOTIFY_AUTH_SECRET** is also used to authenticate on Spotify Web API.
 
 In order to get your own **SPOTIFY_AUTH_ID** and **SPOTIFY_AUTH_SECRET**, access the [Spotify for Developer's Dashboard](https://beta.developer.spotify.com/dashboard/) and create your own App.
+
+## API
+
+The only API this server exposes is used to get a list of featured playlists from spotify.
+Our API endpoint is **/api/v1/featured-playlists** and it accepts only HTTP GET in order to retrieve data.
+The API accepts a bunch of parameters used to filter the retrieved data in some way. You can check the available parameters on Spotify's Web API [docs](https://developer.spotify.com/web-api/get-list-featured-playlists/)
