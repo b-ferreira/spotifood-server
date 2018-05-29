@@ -3,7 +3,7 @@ const corsMiddleware = require('restify-cors-middleware')
 
 const cors = corsMiddleware({
   preflightMaxAge: 5, // Optional
-  origins: ['http://ifood-frontend-test.herokuapp.com', 'https://ifood-frontend-test.herokuapp.com'],
+  origins: ['http://react-app-playground.herokuapp.com', 'https://react-app-playground.herokuapp.com'],
   allowHeaders: ['GET'],
   exposeHeaders: ['GET']
 })
